@@ -139,3 +139,61 @@ html {
   border-radius: 10px;
   margin-bottom: 20px;
 }
+
+/* 
+blog */
+
+.blog-wrapper {
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+}
+
+.blog-wrapper h1 {
+  text-align: center;
+}
+
+.blog-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-wrapper p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.blog-wrapper ul {
+  padding-left: 30px;
+}
+
+.blog-wrapper li {
+  padding-bottom: 10px;
+}
+
+.footer-bar {
+  background-color: var(--primary-color);
+  border-top-right-radius: 20px;
+  padding: 30px;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-wrap {
+  margin-top: 30px;
+}
+
+.footer-wrap a {
+  padding-right: 30px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
