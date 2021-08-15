@@ -5,6 +5,12 @@ body {
   margin: 0px;
 }
 
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   --primary-color: #047857;
   --white: white;
@@ -99,4 +105,37 @@ body {
   border: 0px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.project-holder {
+  max-width: 650px;
+  margin: auto;
+}
+
+.project-section {
+  margin-bottom: 60px;
+}
+
+.project-section h3 {
+  padding-bottom: 20px;
+}
+
+.projects {
+  box-sizing: border-box;
+  background-color: var(--projects);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.projects p {
+  margin-top: 30px;
+}
+
+.mark {
+  display: inline;
+  padding: 10px;
+  color: var(--off-white);
+  background-color: var(--dark-grey);
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
